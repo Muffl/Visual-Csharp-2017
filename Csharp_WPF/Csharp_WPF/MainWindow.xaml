@@ -24,6 +24,20 @@
         <RadioButton x:Name="radioButton" Content="Ein" Grid.Column="2" HorizontalAlignment="Left" Margin="162,51,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioButton1" Content="Aus" Grid.Column="2" HorizontalAlignment="Left" Margin="162,71,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.509,-1.833"/>
         <RadioButton x:Name="radioButton2" Content="Neutral" Grid.Column="2" HorizontalAlignment="Left" Margin="162,91,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Image x:Name="image" Height="100" Margin="134,114,86,0" Grid.Row="1" RenderTransformOrigin="-0.412,-0.488" Grid.Column="2" Source="Erdbeere.jpg">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Erdbeere.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <PasswordBox x:Name="passwordBox" Grid.Column="1" Margin="72,91,66,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.204,-1.903"/>
+        <Menu x:Name="menu" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="792">
+            <MenuItem Header="Datei" Height="30" Width="100" FontFamily="Arial" HorizontalAlignment="Center"  />
+            <MenuItem Header="Bearbeiten"  Height="30" Width="141" RenderTransformOrigin="1.722,0.558" FontFamily="Arial"/>
+            <MenuItem Header="Info"  Height="30" Width="100" RenderTransformOrigin="1.722,0.558" FontFamily="Arial">
+                <MenuItem Header="(c) by Muffl" HorizontalAlignment="Center" Height="30" Width="157" Margin="0,0,-27,0"/>
+                <MenuItem Header="2018" HorizontalAlignment="Left" Height="30" Width="171" Margin="0,0,-41,0"/>
+            </MenuItem>
+        </Menu>
 
 
     </Grid>
