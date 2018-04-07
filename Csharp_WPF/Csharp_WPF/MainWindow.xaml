@@ -21,6 +21,9 @@
                     "  VerticalAlignment="Bottom"/>
         <Button x:Name="button" Content="OK" Grid.Column="1" HorizontalAlignment="Left" Margin="96,181,0,0" VerticalAlignment="Top" Width="74" FontFamily="Calibri" FontSize="10"/>
         <DocumentViewer x:Name="documentViewer" Grid.Column="3" HorizontalAlignment="Left" Margin="0,134,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton" Content="Ein" Grid.Column="2" HorizontalAlignment="Left" Margin="162,51,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton1" Content="Aus" Grid.Column="2" HorizontalAlignment="Left" Margin="162,71,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.509,-1.833"/>
+        <RadioButton x:Name="radioButton2" Content="Neutral" Grid.Column="2" HorizontalAlignment="Left" Margin="162,91,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
 
     </Grid>
