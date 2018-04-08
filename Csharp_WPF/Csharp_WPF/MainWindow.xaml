@@ -13,9 +13,9 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto" MinWidth="320"/>
-            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <DatePicker Grid.Column="2" HorizontalAlignment="Center" Margin="44,10,0,0" Grid.Row="0 
                     "  VerticalAlignment="Bottom"/>
